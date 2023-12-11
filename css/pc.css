@@ -1,0 +1,199 @@
+@media all and (min-width:760px){
+    .Quick p{display: block; font-size: 14px; color: #fff;}
+    .Quick .pic{padding: 0; margin-right: 10px;}
+    .Quick a{display: flex; align-items: center;}
+    .Quick >div{width: unset; margin-right: 40px;}
+
+    .s1,.s2{font-size: 14px;}
+
+    /* aside */
+    .Gnb{
+        width: 75%; 
+        display: flex; 
+        justify-content: center;
+        margin: 200px auto 0 auto;
+    }
+    .Util{
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .Util .con{display: flex;}
+    .gnb, .util{width: 50%; padding: 0 10px;}
+    .check{margin-left: 10px;}
+    /* 탭메뉴 끝 */
+
+    .Rwrap{width: 80%; margin-right: auto; margin-left: auto;}
+    .num{
+        display: flex;
+        justify-content: space-between;
+    }
+    .num .btn{display: block; width:100%; margin-right: 24px;}  
+    .num .room{margin-right:0;}  
+    
+   
+    /* 예약 끝 */
+    
+    .hotel{display: flex; justify-content: space-between;}
+    .hotel .left{width: 33%;}
+    .hotel .right{
+        width:65%; 
+        display: flex;
+        flex-direction: column;
+    }
+    .rigtop{margin:0;}
+    .rigbottom{margin-top: auto;}
+   
+    /* 호텔소개 끝 */
+
+    .roomcon .con{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .roomtxt{ width: 48%;}
+    .Rpic{ width: 48%; margin-top: 0;}
+
+    .roomtxt{
+        display: flex; 
+        flex-direction: column;
+    }
+   .s2 .btn{justify-content: unset;}
+   /* 룸 끝  */
+
+   .pcon{
+        display: flex;
+        justify-content: space-between;
+    }
+    .packR{width: 50%;}
+    .packL{
+        display: unset; 
+        width: 46%; 
+        margin-bottom: 0;
+        justify-content: unset;
+    }
+    .packL li{ width: 100%;}
+    .packL li:nth-child(1){
+        margin-bottom: 32px;
+    }
+    /* 패키지 끝 */
+    .s4 .sWrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .s4 .txt{ width: 42%;}
+    .news{
+        width: 56%;
+        margin-top: 0;
+        font-size: 14px;
+    }
+    .news li{margin-right: 4%;}
+    /* 뉴스끝 */
+
+    .photo .text p{font-size: 26px;}
+    /*  */
+
+    .snsCon{position: unset;}
+    .spot .snstxt{
+        position:unset;
+        transform: unset;
+        text-shadow: unset;
+        font-size: 14px;
+        text-align: unset;
+        color: #767676;
+        margin-bottom: 16px;
+    }
+    /* sns끝 */
+
+    .fgnb{justify-content: left;}
+    .fgnb li:first-child{margin-left: 0;}
+
+    address span{
+       display: inline-block;
+       margin-right: 16px;
+       
+    }
+ 
+  
+
+
+
+
+
+
+
+}
+@media all and (min-width:1320px){
+    .title h3{font-size: 32px;}
+    h4{font-size: 24px;}
+ 
+    .Quick p{font-size: 16px;}
+    aside{overflow-y: unset;}
+    .navback{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 55%;
+        height: 100%;
+        background-image: url(../imges/navimg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        z-index: -1;
+    }
+    .navback div{
+        background-color: #003377;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 50%;
+    }
+    .Gnb, .Util{width: 50%; }
+    nav{padding-left:200px;}
+    .gnb2, .util2{margin-left: 50px;}
+    .Util{
+        font-size: 0.6em; 
+        margin-top: 50px;
+    }
+    /* 메뉴탭 끝 */
+    video{
+        background-color: #003377;
+        max-height: 1200px;
+      
+    }
+    /*  */
+    .Reserv h3{
+        font-size: 32px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .Rwrap{display: flex; justify-content: center;}
+    .Rwrap .booking {width: 30%;margin-right: 24px;}
+    .Rwrap .I{margin-bottom:0;}
+
+    /*  */
+    .hotel .right{width: 63%;}
+
+    /*  */
+    .packR{width: 55%;}
+    .packL{width: 41%;}
+    /*  */
+    .s4 .txt{font-size: 18px;}
+    /*  */
+
+    .fbox{display: flex;}
+    .fleft{width: 70%;}
+    .fright{margin-left: auto;}
+    .copyright{
+        text-align: left;
+
+    }
+
+    
+
+}
+

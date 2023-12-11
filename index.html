@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skybay</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/pc.css">
+ 
+</head>
+<body>
+    <header> 
+        <div class="hWrap">
+            <h1><a href="#"><img src="imges/logo.png" alt="Logo"></a></h1>
+
+            <div class="Quick">
+                <div class="reserv">
+                    <a href="#">
+                        <div class="pic">
+                            <img src="imges/reservations.png" alt="reservations">
+                        </div><!--pic-->
+                        <p>RESERVATIONS</p>
+                    </a>
+                </div><!--reserv-->
+
+                <div class="call">
+                    <a href="tel:0339232000">
+                        <div class="pic">
+                            <img src="imges/call.png" alt="call">
+                        </div><!--pic-->
+                        <p>033 - 923 - 2000</p>
+                    </a>
+                </div><!--call-->
+
+                <button class="menu" type="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div><!--Quick-->
+
+            <aside>
+                <div class="navback"><div></div></div>
+                <nav class="Gnb">
+                    <ul class="gnb gnb1">
+                        <li><a href="#"><span class="num">01.</span> <span class="tit">ABOUT US</span></a></li>
+                        <li><a href="#"><span class="num">02.</span> <span class="tit">NEWS</span></a></li>
+                        <li><a href="#"><span class="num">03.</span> <span class="tit">ROOMS</span></a></li>
+                    </ul><!--gnb1-->
+
+                    <ul class="gnb gnb2">
+                        <li><a href="#"><span class="num">04.</span> <span class="tit">INFINITY POOL</span></a></li>
+                        <li><a href="#"><span class="num">05.</span> <span class="tit">RESTAURANT</span></a></li>
+                        <li><a href="#"><span class="num">06.</span> <span class="tit">PACKAGE</span></a></li>
+                        <li><a href="#"><span class="num">07.</span> <span class="tit">FACILITIES</span></a></li>
+                    </ul><!--gnb2-->
+                </nav><!--Gnb-->
+                
+                
+                <nav class="Util">
+                    <div class="check"><a href="#">예약확인</a></div>
+                    <div class="con">
+                        <ul class="util util1">
+                            <li><a href="#">오시는길</a></li>
+                            <li><a href="#">층별안내</a></li>
+                        </ul><!--util1-->
+
+                        <ul class="util util2">
+                            <li><a href="#">고객문의</a></li>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul><!--util2-->
+                    </div><!--con-->
+                </nav><!--Util-->
+
+            </aside>
+        </div><!--hWrap-->
+    </header>
+
+    <figure>
+        <div class="vWrap">
+            <video src="video/SKYBAY hotel gyeongpo.mp4" controls="false" loop autoplay  muted></video>
+            <!-- autoplay -->
+            <div class="dim"></div>
+        </div><!--vWrap-->
+    </figure>
+
+    <div class="Reserv">
+        <div class="sWrap reserV">
+            <h3>BOOK YOUR STAY</h3>
+            
+            <form method="post" action="#">
+                <div class="Rwrap">
+
+                    <div class="I booking">
+                        <p class="name">체크인Check IN / 체크아웃 Check OUT</p>
+                        <div class="con">
+                            <button class="icon" type="button"><img src="imges/srch_check.png" alt="체크인"></button>
+                            <input type="text" placeholder="2023 - 12 - 01 ~ 2023 - 12 - 02">
+                        </div>
+                    </div><!--booking-->
+
+                    <div class="num">
+                        <div class="I adult btn">
+                            <p class="name">성인 / ADULT</p>
+                            <div class="con">
+                                <div class="icon"><img src="imges/srch_person.png" alt="성인"></div>
+                                <div class="subcon">
+                                    <button class="prev" type="button">-</button>
+                                    <input type="text" value="2">
+                                    <button class="next" type="button">+</button>
+                                </div><!--subcon-->
+                            </div>
+                        </div><!--adult-->
+
+                        <div class="I child btn">
+                            <p class="name">어린이 / CHILD</p>
+                            <div class="con">
+                                <div class="icon"><img src="imges/srch_person.png" alt="어린이"></div>
+                                <div class="subcon">
+                                    <button class="prev" type="button">-</button>
+                                    <input type="text" value="0">
+                                    <button class="next" type="button">+</button>
+                                </div><!--subcon-->
+                            </div>
+                        </div><!--child-->
+                    
+                        <div class="I room btn">
+                            <p class="name">객실 / ROOM</p>
+                            <div class="con">
+                                <div class="icon"><img src="imges/srch_room.png" alt="객실"></div>
+                                <div class="subcon">
+                                    <button class="prev" type="button">-</button>
+                                    <input type="text" value="1">
+                                    <button class="next" type="button">+</button>
+                                </div><!--subcon-->
+                            </div>
+                        </div><!--room-->
+                    </div><!--num-->
+                </div><!--RWrap-->
+                
+                <div class="sbtn">
+                    <button class="srcbtn" type="submit">검색하기</button>
+                </div>
+             </form>
+             <div class="Rclose"><button>닫기</button></div>
+
+        </div><!--sWrap-->
+        <div class="Ropen"><button>열기</button></div>
+    </div><!--Reserv-->
+
+    <section class="s1">
+        <div class="sWrap">
+            <div class="title"><img src="imges/icon0.png"></div><!--title-->
+
+            <div class="hotel">
+                <div class="left">
+                    <img src="imges/facilities0.png" alt="호텔전경">
+                </div><!--left-->
+
+                <div class="right">
+                    <div class="rigtop">
+                        <h4>하늘과 바다를 품은 낭만적인 인피니티 풀</h4>
+                        <p class="txt">
+                            스카이베이 경포 호텔은 한국의 관동팔경의 하나로 최고의 휴양지인 강릉 경포대 앞에 위치해 있습니다. 5성급 호텔로서 객실 538개와 연회장, 스카이 라운지 레스토랑과 바 
+                            그리고 고급 스파 시설을 갖추고 다양한 서비스를 제공하며, 호텔 전 객실에서는 푸른 동해 바다와 경포 호수의 아름다운 경관을 즐기실 수 있습니다.
+                        </p>
+                        <p class="page"><a href="#">시설보러가기</a></p>
+                    </div><!--rigtop-->
+
+                    <div class="rigbottom">
+                        <ul>
+                            <li><a href="#"><img src="imges/facilities1.png" alt=""></a></li>
+                            <li><a href="#"><img src="imges/facilities2.png" alt=""></a></li>
+                            <li><a href="#"><img src="imges/facilities3.png" alt=""></a></li>
+                        </ul>
+                    </div><!--rigbottom-->
+                </div><!--right-->
+
+            </div><!--hotel-->
+        </div><!--sWrap-->
+    </section><!--s1-->
+
+    <section class="s2">
+        <div class="sWrap">
+            <div class="title">
+                <img src="imges/icon0-1.png">
+                <h3><a href="#">ROOMS</a></h3>
+            </div><!--title-->
+
+            <div class="type">
+                <button class="active" type="button">Deluxe</button>
+                <button type="button">Executive</button>
+                <button type="button">Suite</button>
+                <button type="button">Ambassador</button>
+                <button type="button">Premier Suite</button>
+            </div>
+
+            <div class="roomcon">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide Rcon">
+                            <div class="con">
+                                <div class="roomtxt">
+                                    <h4>Deluxe</h4>
+                                    <ul class="info">
+                                        <li><div class="pic"><img src="imges/roomicon1.png" alt="사람"></div>
+                                            <p>2인 / 4인</p>
+                                        </li>
+
+                                        <li><div class="pic"><img src="imges/roomicon2.png" alt="침대"></div>
+                                            <p>더블 / 싱글 / 이층</p>
+                                        </li>
+
+                                        <li><div class="pic"><img src="imges/roomicon3.png" alt="풍경"></div>
+                                            <p>호수 /나무 숲</p>
+                                        </li>
+                                    </ul><!--info-->
+
+                                    <div class="subtxt">
+                                        <p>여유로운 혼자만의 여행 혹은 커플여행객을 위한 객실로서 
+                                            전 객실 테라스에서 푸르른 소나무 전망이나 호수 전망을 감상할 수 있습니다.</p>
+                                    </div><!--subtxt-->
+
+                                    <ul class="subtype">
+                                        <li><span></span><a href="#">Double(low)</a></li>
+                                        <li><span></span><a href="#">Twin</a></li>
+                                        <li><span></span><a href="#">Double</a></li>
+                                        <li><span></span><a href="#">Family</a></li>
+                                    </ul>
+
+                                    <ul class="btn">
+                                        <li><span></span><a href="#">예약하기</a></li>
+                                        <li><span></span><a href="#">객실 정보 더보기</a></li>
+                                    </ul><!--btn-->
+                                </div><!--roomtxt-->
+
+                                <div class="Rpic">
+                                    <a href="#"><img src="imges/room1.png" alt="디럭스룸"></a>
+                                </div><!--Rpic-->
+                            </div>
+                        </div><!--첫번째-->
+
+                        <div class="swiper-slide">
+                            <div class="con">
+                                <div class="roomtxt">
+                                    <h4>Executive</h4>
+                                    <ul class="info">
+                                        <li><div class="pic"><img src="imges/roomicon1.png" alt="사람"></div>
+                                            <p>2인</p>
+                                        </li>
+
+                                        <li><div class="pic"><img src="imges/roomicon2.png" alt="침대"></div>
+                                            <p>더블 / 싱글 / 퀸</p>
+                                        </li>
+
+                                        <li><div class="pic"><img src="imges/roomicon3.png" alt="풍경"></div>
+                                            <p>바다전망</p>
+                                        </li>
+                                    </ul><!--info-->
+
+                                    <div class="subtxt">
+                                        <p>여유로운 혼자만의 여행 혹은 커플여행객, 가족 단위 여행객을 위한 객실로서, 전 객실 테라스에서 아름다운 경포해변의 아름다운 전망을 감상할 수 있습니다.</p>
+                                    </div><!--subtxt-->
+
+                                    <ul class="subtype">
+                                        <li><span></span><a href="#">Double</a></li>
+                                        <li><span></span><a href="#">Twin</a></li>
+                                    </ul>
+
+                                    <ul class="btn">
+                                        <li><span></span><a href="#">예약하기</a></li>
+                                        <li><span></span><a href="#">객실 정보 더보기</a></li>
+                                    </ul><!--btn-->
+                                </div><!--roomtxt-->
+
+                                <div class="Rpic">
+                                    <a href="#"><img src="imges/room2.png" alt="이그제큐티브룸"></a>
+                                </div><!--Rpic-->
+                            </div>
+                        </div><!--두번째-->
+
+                        <div class="swiper-slide">
+                            <div class="con">
+                                <div class="roomtxt">
+                                    <h4>Suite</h4>
+                                    <ul class="info">
+                                        <li><div class="pic"><img src="imges/roomicon1.png" alt="사람"></div>
+                                            <p>3인 / 4인</p>
+                                        </li>
+
+                                        <li><div class="pic"><img src="imges/roomicon2.png" alt="침대"></div>
+                                            <p>퀸 / 이층</p>
+                                        </li>
+
+                                        <li><div class="pic"><img src="imges/roomicon3.png" alt="풍경"></div>
+                                            <p>호수 / 바다전망</p>
+                                        </li>
+                                    </ul><!--info-->
+
+                                    <div class="subtxt">
+                                        <p>4인 가족 단위 여행객을 위한 객실로 침실과 거실이 통합된 스튜디오 형식의 객실입니다.
+                                            2층과 3층에 위치하여 경포호를 더욱 가까이 감상할 수 있으며, 소나무와 바다의 파도소리가 아름답게 조화를 이루어 냅니다.</p>
+                                    </div><!--subtxt-->
+
+                                    <ul class="subtype">
+                                        <li><span></span><a href="#">Junior Double</a></li>
+                                        <li><span></span><a href="#">Junior Twin</a></li>
+                                    </ul>
+
+                                    <ul class="btn">
+                                        <li><span></span><a href="#">예약하기</a></li>
+                                        <li><span></span><a href="#">객실 정보 더보기</a></li>
+                                    </ul><!--btn-->
+                                </div><!--roomtxt-->
+
+                                <div class="Rpic">
+                                    <a href="#"><img src="imges/room3.png" alt="스위트룸"></a>
+                                </div><!--Rpic-->
+                            </div>
+                        </div><!--세번째-->
+
+                        <div class="swiper-slide">
+                            <div class="con">
+                                <div class="roomtxt">
+                                    <h4>Ambassador Suite</h4>
+                                    <ul class="info">
+                                        <li><div class="pic"><img src="imges/roomicon1.png" alt="사람"></div>
+                                            <p>2인 / 4인</p>
+                                        </li>
+
+                                        <li><div class="pic"><img src="imges/roomicon2.png" alt="침대"></div>
+                                            <p>싱글 / 퀸 / 킹 / 이층</p>
+                                        </li>
+
+                                        <li><div class="pic"><img src="imges/roomicon3.png" alt="풍경"></div>
+                                            <p>호수 / 바다전망</p>
+                                        </li>
+                                    </ul><!--info-->
+
+                                    <div class="subtxt">
+                                        <p>거실과 별도의 침실이 구분되어 효율적인 공간 이용이 가능합니다. 거실에서는 반짝이는 경포호수를, 객실에서는 경포 바다를 조망할 수 있습니다.</p>
+                                    </div><!--subtxt-->
+
+                                    <ul class="subtype">
+                                        <li><span></span><a href="#">Double</a></li>
+                                        <li><span></span><a href="#">Twin</a></li>
+                                        <li><span></span><a href="#">Family</a></li>
+                                    </ul>
+
+                                    <ul class="btn">
+                                        <li><span></span><a href="#">예약하기</a></li>
+                                        <li><span></span><a href="#">객실 정보 더보기</a></li>
+                                    </ul><!--btn-->
+                                </div><!--roomtxt-->
+
+                                <div class="Rpic">
+                                    <a href="#"><img src="imges/room4.png" alt="엠버서더룸"></a>
+                                </div><!--Rpic-->
+                            </div>
+                        </div><!--네번째-->
+
+                        <div class="swiper-slide">
+                            <div class="con">
+                                <div class="roomtxt">
+                                    <h4>Premier Suite</h4>
+                                    <ul class="info">
+                                        <li><div class="pic"><img src="imges/roomicon1.png" alt="사람"></div>
+                                            <p>4인 / 6인</p>
+                                        </li>
+
+                                        <li><div class="pic"><img src="imges/roomicon2.png" alt="침대"></div>
+                                            <p>싱글 / 더블 / 킹</p>
+                                        </li>
+
+                                        <li><div class="pic"><img src="imges/roomicon3.png" alt="풍경"></div>
+                                            <p>호수 / 바다전망</p>
+                                        </li>
+                                    </ul><!--info-->
+
+                                    <div class="subtxt">
+                                        <p>2~3개의 침실과 거실로 구성 드넓게 펼쳐진 동해바다를 한 눈에 담을 수 있으며, 코너에 위치한 침실에서는 경포해변과 경포호수를 동시에 감상할 수 있습니다.</p>
+                                    </div><!--subtxt-->
+
+                                    <ul class="subtype">
+                                        <li><span></span><a href="#">Royal</a></li>
+                                        <li><span></span><a href="#">Imperial</a></li>
+                                        <li><span></span><a href="#">President</a></li>
+                                    </ul>
+
+                                    <ul class="btn">
+                                        <li><span></span><a href="#">예약하기</a></li>
+                                        <li><span></span><a href="#">객실 정보 더보기</a></li>
+                                    </ul><!--btn-->
+                                </div><!--roomtxt-->
+
+                                <div class="Rpic">
+                                    <a href="#"><img src="imges/room4.png" alt="엠버서더룸"></a>
+                                </div><!--Rpic-->
+                            </div>
+                        </div><!--다섯번째-->
+            
+                    </div><!--swiper-wrapper-->
+
+                </div><!--swiper mySwiper-->
+            </div><!--roomcon-->
+
+        </div><!--sWrap-->
+    </section><!--s2-->
+
+    <section class="s3">
+        <div class="sWrap">
+            <div class="title">
+                <img src="imges/icon0.png">
+                <h3><a href="#">PACKAGE</a></h3>
+            </div><!--title-->
+
+            <div class="pcon">
+                <ul class="packL">
+                    <li><a href="#">
+                        <div class="pic"><img src="imges/package1.png" alt="키즈패키지"></div>
+                        <div class="txt">
+                            <p><strong>도담도담 키즈 패키지</strong></p>
+                            <p class="Txt">객실에서는 편안한 휴식과 호텔 앞 경포 해변에서 모래놀이는 물론
+                                아이의 건강과 마음을 사로잡을 키즈 웰컴 어메니티가 포함된 "키즈 전용 패키지"</p>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="pic"><img src="imges/package2.png" alt="일취월잠패키지"></div>
+                        <div class="txt">
+                            <p><strong>일취월잠 패키지</strong></p>                        
+                            <p class="Txt">여행 중 피로와 스트레스로 지친 여행자를 위한 패키지!
+                                숙면키트  및 다양한 혜택제공</p>
+                        </div>
+                    </a></li>
+                </ul><!--packL-->
+
+                <div class="packR">
+                    <ul class="R1">
+                        <li><a href="#">
+                            <div class="pic"><img src="imges/package3.png" alt="R&R 패키지(Rest &Relax)"></div>
+                            <div class="txt">
+                                <p><strong>R&R 패키지(Rest & Relax)</strong></p>
+                                <p class="Txt">복잡한 도심에서 벗어나 고요한 강릉에서 맞이하는 온전히 “나”에게 전하는 위로와 힐링이 담긴 패키지</p>
+                            </div>
+                        </a></li>
+
+                        <li><a href="#">
+                            <div class="pic"><img src="imges/package4.png" alt="비와 TEA의 멋진 Rendezvousvozlwl"></div>
+                            <div class="txt">
+                                <p><strong>비와 TEA의 멋진 Rendezvous</strong></p>
+                                <p class="Txt">가을 비와 Tea 가 어우러진 멋진 만남을 즐길 수 있는 패키지
+                                    TEA세트(TEAFFERENCE브랜드)</p>
+                            </div>
+                        </a></li>
+                    </ul>
+
+                    <ul class="R2">
+                        <li><a href="#">
+                            <div class="pic"><img src="imges/package5.png" alt="Triple 2 Package(셋이면 행복이 +++)"></div>
+                            <div class="txt">
+                                <p><strong>Triple 2 Package(셋이면 행복이 +++)</strong></p>
+                                <p class="Txt">더 많이 모일수록 행복은 배가된다! 
+                                    세명이서 스카이베이호텔 경포를 더 즐겁게 누릴 수 있는 방법!
+                                    조식ver / 인피니티풀 ver</p>
+                            </div>
+                        </a></li>
+    
+                        <li><a href="#">
+                            <div class="pic"><img src="imges/package6.png" alt="skybay full 패키지"></div>
+                            <div class="txt">
+                                <p><strong>skybay full 패키지</strong></p>
+                                <p class="Txt">뭘 좋아할지 몰라 다~ 준비한 패키지를 소개합니다!
+                                    호캉스의 필수인 조식과 인피니티 풀 혜택이 담긴 호캉스의 정석 패키지!</p>
+                            </div>
+                        </a></li>
+                    </ul>
+                </div><!--packR-->
+        </div><!--pcon-->
+
+        <div class="more"><a href="#">전체보기</a></div>
+
+        </div><!--sWrap-->
+    </section><!--s3-->
+
+    <section class="s4">
+        <div class="sWrap">
+            <div class="txt">스카이베이 호텔의 투숙객을 위한 다양한<br>혜택과 소식을 확인해보세요</div>
+            <ul class="news">
+                <li><span></span><a href="#">투숙객 혜택</a></li>
+                <li><span></span><a href="#">자쿠지 객실 OPEN</a></li>
+                <li><span></span><a href="#">Connectiong Room</a></li>
+            </ul><!--news-->
+        </div><!--sWrap-->
+    </section>
+
+    <section class="s5">
+        <div class="sWrap">
+            <div class="title">
+                <img src="imges/icon0.png">
+                <h3><a href="#">FACILITIES</a></h3>
+            </div><!--title-->
+
+            <div class="photoCon">
+                <ul class="photo">
+                    <li><a href="#"><img src="imges/banque.png" alt="연회장">
+                        <div class="text"><p>Banque</p></div>
+                    </a></li>
+
+                    <li><a href="#"><img src="imges/wedding.png" alt="웨딩홀">
+                        <div class="text"><p>Wedding</p></div>
+                    </a></li>
+
+                    <li><a href="#"><img src="imges/mettingRoom.png" alt="회의장">
+                        <div class="text"><p>Meeting Room</p></div>
+                    </a></li>
+                </ul>
+            </div><!--photo-->
+
+            <div class="more"><a href="#">전체보기</a></div>
+
+        </div><!--sWrap-->
+    </section>
+
+    <section class="s6">
+        <div class="sWrap">
+            <div class="title">
+                <img src="imges/icon0.png">
+                <h3>SNS</h3>
+            </div><!--title-->
+
+            <ul class="sns">
+                <li><span></span><a href="#">Instagram</a></li>
+                <li><span></span><a href="#">Facebook</a></li>
+                <li><span></span><a href="#">Youtube</a></li>
+            </ul>
+
+            <div class="snsCon">
+                <ul>
+                    <li><img src="imges/sns1.jpg" alt=""></li>
+                    <li class="spot">
+                        <div class="snstxt">
+                            <p>낮에는 끝없는 동해바다의 푸름을, 밤에는 별이 쏟아지는 밤하늘을 한눈에 
+                                담을 수 있는 스카이베이호텔 경포의 시그니처 스팟을 만나보세요.</p>
+                        </div>
+                        <img src="imges/sns2.jpg" alt="">
+                    </li>
+                    <li><img src="imges/sns3.jpg" alt=""></li>
+                </ul>
+            </div><!--snsCon-->
+        </div><!--sWrap-->
+    </section>
+
+    <footer>
+        <div class="sWrap fWrap">
+            <ul class="fgnb">
+                <li><a href="#">개인정보취급방침</a></li>
+                <li><a href="#">채용안내</a></li>
+                <li><a href="#">오시는길</a></li>
+            </ul>
+            
+            <div class="fbox">
+                <div class="fleft">
+                    <address>
+                        <div class="text">
+                            <span>상호 : 스카이베이호텔</span>
+                            <span>대표이사 : 심태형</span>
+                            <span>주소 : 강원특별자치도 강릉시 해안로 476 (강문동 258-4)</span>
+                            <span>사업자등록번호. : 604-88-00718</span>
+                            <span>통신판매업신고. 제2018-강원강릉-0030호</span>
+                            <span>이메일 : reservation@skybay.co.kr</span>
+                        </div>
+                    </address>
+                </div><!--fleft-->
+
+                <div class="fright">
+                    <div class="ftxt"><p><a href="tel:0339232000">대표번호 : 033-923-2000</a></p></div>
+
+                    <div class="snsbox">
+                        <div class="snstitle"><p>sns</p></div>
+                        <ul class="fsns">
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Youtube</a></li>
+                        </ul>
+                    </div>
+                </div><!--fright-->
+            </div>
+            <div class="copyright">
+                <p>Copyrightⓒ2021 Skybay Hotel Gyeongpo All rights reserved.</p>
+            </div>
+            
+        </div><!--fWrap-->
+    </footer>
+ 
+
+
+
+
+
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+   
+    <script>
+        //start();
+        //function start(){
+        //    $('.pp').css({'transform': 'translateY(0)'});
+        //}
+
+
+        //헤더
+        let s1offtop = $('.s1').offset().top;
+
+        $(window).scroll(function(){
+            let scr = $(window).scrollTop();
+
+            if(scr > 0 && scr >= s1offtop){
+                $('header').css({'backgroundColor': 'rgb(38 97 201 / 51%)'});
+            }else {
+                $('header').css({'backgroundColor': 'transparent'});
+            }
+        });
+
+
+        // 메뉴바
+        $(function(){
+            $('.menu').click(function(){
+                if( $(this).hasClass('close')){
+                    $(this).removeClass('close')
+                    $('aside').stop().animate({'right':'-100%'}).removeClass("active");
+
+                    
+                }else{
+                    $(this).addClass('close')
+                    $('aside').stop().animate({'right':0}).addClass("active");
+                }
+            });
+        });
+
+
+        //예약
+        $('.Rclose').on("click", function(){
+            $('.reserV').stop().slideUp(500);
+            $('.Ropen').show();
+        });
+        $('.Ropen').on("click", function(){
+            $('.reserV').stop().slideDown(500);
+            $('.Ropen').hide();
+        });
+
+        //성인 버튼
+        let anum = 2;
+        $('.adult .next').click(function(){
+            anum ++;
+            $(this).parent('.subcon').find('input').val(anum);
+        });
+
+        $('.adult .prev').click(function(){
+            if(0<anum){
+                anum --;
+            }else{anum = 0}
+    
+            $(this).parent('.subcon').find('input').val(anum);
+        });
+
+        //어린이 버튼
+        let cnum = 0;
+        $('.child  .next').click(function(){
+            cnum ++;
+            $(this).parent('.subcon').find('input').val(cnum);
+        });
+
+        $('.child  .prev').click(function(){
+            if(0<cnum){
+                cnum --;
+            }else{cnum = 0}
+    
+            $(this).parent('.subcon').find('input').val(cnum);
+        });
+
+        //객실 버튼
+        let rnum = 1;
+        $('.room   .next').click(function(){
+            rnum ++;
+            $(this).parent('.subcon').find('input').val(rnum);
+        });
+        
+        $('.room   .prev').click(function(){
+            if(0<rnum){
+                rnum --;
+            }else{rnum = 0}
+    
+            $(this).parent('.subcon').find('input').val(rnum);
+        });
+
+
+
+        //룸
+
+        $('.type button').on("click", function(){
+            $(this).addClass('active');
+            $(this).siblings().removeClass('active');
+
+            let i = $(this).index();
+
+            $('.swiper-slide').eq(i).show();
+            $('.swiper-slide').eq(i).siblings().hide();
+        });
+
+
+
+
+  
+
+
+    </script>
+</body>
+</html>
