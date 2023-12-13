@@ -233,11 +233,6 @@ form .srcbtn:hover{
 }
 /* 예약페이지끝 */
 
-/* .hotel .left{ */
-    /* min-width: 320px; */
-    /* max-width: 410px; */
-    /* margin:0 auto; */
-/* } */
 .hotel img{width: 100%;}
 
 .rigtop{margin: 24px 0;}
@@ -255,7 +250,7 @@ form .srcbtn:hover{
 .roomcon .Rcon{display: block;}
 
 .s2{
-    background-image: url(../imges/roombg.png);
+    background-image: url(../imges/roombg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -414,7 +409,7 @@ form .srcbtn:hover{
 /* 패키지끝 */
 
 .s4{
-    background-image: url(../imges/news.png);
+    background-image: url(../imges/news.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 center;
